@@ -28,6 +28,7 @@
      Complixity of stack() function:-
          = O(n+(n-1)+(n-2)+(n-3)+.......(n-(n-1)) - 1
          = O( (n*(n+1)/2) )
+         = O(n^2)
          Also another factor of complexity in this code is when i used 'in' operator at 3rd line before of the last line to the stack method.
          if n is 6(I mean n is length of sub paramitter) than complixity is
          = (6+(6-1)+(6-2)+(6-3)+(6-4)+(6-5)) - 1
